@@ -28,7 +28,9 @@ body{
     color: #2e2f42;
 }
 
-.list-nav__listitem .link:hover 
+.list-nav__listitem .link:hover {
+  color: #404bbf;
+}
 .list-nav__listitem .link:focus{
     color: #404bbf;
 }
