@@ -20,7 +20,7 @@ body{
 
 }
 
-.list-nav__list-item .link{
+.listnav-listitem .link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -28,8 +28,8 @@ body{
     color: #2e2f42    ;
 }
 
-.list-nav__list-item .link:hover,
-.list-nav__list-item .link:focus{
+.listnav-listitem .link:hover,
+.listnav-list-item.link:focus{
     color: #404bbf;
 }
 
@@ -65,13 +65,15 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: #ffffff;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
   }
   
-  .first-buton:hover
+  .first-buton:hover {
+    background-color: #404BBF;
+  }
   .first-buton:focus {
     background-color: #404BBF;
   }
